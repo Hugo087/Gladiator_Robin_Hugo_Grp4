@@ -37,7 +37,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='nom'
+    name='nom_ethnie'
     aggregation='none'
     visibility='private'>
    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>

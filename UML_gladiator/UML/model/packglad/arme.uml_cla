@@ -37,7 +37,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='nom'
+    name='nom_arme'
     aggregation='none'
     visibility='private'>
    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
@@ -85,6 +85,46 @@
      value='1'
      visibility='public'/>
    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:ebd4dab1-e144-4f6b-bca3-313795a3e638'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:b456e1cf-b970-44b0-be97-7e8bc51a4916'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='dispo_mirmillons'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e2635111-07e0-4b40-82d4-90f06e7b5faa'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b89d08d7-4bf8-4c46-87ef-18d0b54d6e48'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:ef81eeaa-9f6a-4a2a-aa18-d552bed6320b'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='dispo_retiaires'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Boolean'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c92446e6-c1be-46a3-b6f0-08a67ab5e563'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3e7978b1-c817-45e6-8ba4-c53bd7993440'
      value='1'
      visibility='public'/>
   </ownedAttribute>

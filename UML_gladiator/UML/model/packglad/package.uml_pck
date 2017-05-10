@@ -4,4 +4,7 @@
  <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:f93f8284-9b7a-4f06-81c9-b8654bb378bf'
    name='uml'
    visibility='public'/>
+ <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:4407927c-3783-43b0-b1ad-8b7a59557b8b'
+   name='packglad'
+   visibility='public'/>
 </xmi:XMI>

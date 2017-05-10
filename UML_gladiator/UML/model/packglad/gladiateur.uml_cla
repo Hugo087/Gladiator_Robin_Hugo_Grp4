@@ -37,7 +37,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='nom'
+    name='nom_gladiateur'
     aggregation='none'
     visibility='private'>
    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
@@ -88,7 +88,7 @@
      value='1'
      visibility='public'/>
   </ownedAttribute>
-  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:fbd914eb-65b8-410c-baca-f15acc828888'
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:6ac6edf9-0766-4439-a778-49b0df22b5c1'
     isDerived='false'
     isDerivedUnion='false'
     isID='false'
@@ -97,14 +97,14 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='ethnie'
+    name='force'
     aggregation='none'
     visibility='private'>
-   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
-   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:9bb82462-c35f-41c6-95c5-d869d6f8447d'
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2d938663-e08a-49b7-a2b8-49df5941fcdc'
      value='1'
      visibility='public'/>
-   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:cdc40ef4-c82f-4652-9439-a2c50dce8b5e'
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:8a91f0f7-d9ba-490d-8c32-68632447a7f5'
      value='1'
      visibility='public'/>
   </ownedAttribute>

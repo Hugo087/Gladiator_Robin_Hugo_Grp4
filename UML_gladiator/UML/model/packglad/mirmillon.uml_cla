@@ -12,26 +12,6 @@
     isSubstitutable='true'>
    <general href='urn:uuid:f53cb417-4066-4469-a28e-ed92af2eb560'/>
   </generalization>
-  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:80cb340f-2ade-46f4-b24f-2c01a196e3a3'
-    isDerived='false'
-    isDerivedUnion='false'
-    isID='false'
-    isLeaf='false'
-    isOrdered='false'
-    isReadOnly='false'
-    isStatic='false'
-    isUnique='true'
-    name='force'
-    aggregation='none'
-    visibility='private'>
-   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
-   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:b1a0eeb4-22a4-4fcb-82fa-614f4b9005f6'
-     value='1'
-     visibility='public'/>
-   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:9ec300b6-ff2a-4e0d-a8ac-682637e81a2e'
-     value='1'
-     visibility='public'/>
-  </ownedAttribute>
   <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:9c1abbd9-53d7-4048-894d-cee1ecaf1e8e'
     isDerived='false'
     isDerivedUnion='false'
@@ -52,5 +32,42 @@
      value='1'
      visibility='public'/>
   </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:a5e38fe9-9779-4365-9ac5-218f1a5834d6'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='true'
+    isUnique='true'
+    name='c_type'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:619cc1c7-75d0-4aeb-b9b0-0dca32b0db6d'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:6acd3a6d-d766-412f-8266-67967e448ca0'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:f20a541a-0865-4ede-96d9-f34b5fb51967'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Rapport'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:8c8e2746-5324-4d25-9f09-c1ec346b0fac'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+  </ownedOperation>
  </uml:Class>
 </xmi:XMI>
