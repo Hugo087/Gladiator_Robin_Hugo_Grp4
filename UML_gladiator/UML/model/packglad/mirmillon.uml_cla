@@ -45,6 +45,10 @@
     aggregation='none'
     visibility='private'>
    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <defaultValue xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:c3dc8f4e-1af5-4028-a425-75892ec0f686'
+     name=''
+     value='mirmillon'
+     visibility='public'/>
    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:619cc1c7-75d0-4aeb-b9b0-0dca32b0db6d'
      value='1'
      visibility='public'/>
@@ -52,22 +56,5 @@
      value='1'
      visibility='public'/>
   </ownedAttribute>
-  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:f20a541a-0865-4ede-96d9-f34b5fb51967'
-    isAbstract='false'
-    isLeaf='false'
-    isQuery='false'
-    isStatic='false'
-    name='Rapport'
-    concurrency='sequential'
-    visibility='public'>
-   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:8c8e2746-5324-4d25-9f09-c1ec346b0fac'
-     isException='false'
-     isOrdered='false'
-     isStream='false'
-     isUnique='true'
-     direction='return'>
-    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
-   </ownedParameter>
-  </ownedOperation>
  </uml:Class>
 </xmi:XMI>

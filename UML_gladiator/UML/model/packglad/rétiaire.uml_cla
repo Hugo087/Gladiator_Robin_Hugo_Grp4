@@ -45,6 +45,10 @@
     aggregation='none'
     visibility='private'>
    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <defaultValue xmi:type='uml:LiteralString' xmi:uuid='urn:uuid:cb5236b5-1e8e-4c7d-9e58-f578673950b5'
+     name=''
+     value='rétiaire'
+     visibility='public'/>
    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:fe9e00ad-1a23-4676-b498-1a83e975a513'
      value='1'
      visibility='public'/>
@@ -64,7 +68,11 @@
     name='c_force'
     aggregation='none'
     visibility='private'>
-   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   <defaultValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e2215745-571d-4d36-8e8a-4fb556321086'
+     name=''
+     value='30'
+     visibility='public'/>
    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2c80b6ef-8b31-46f5-be3f-d5f503266740'
      value='1'
      visibility='public'/>
