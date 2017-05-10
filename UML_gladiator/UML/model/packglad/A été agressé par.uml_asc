@@ -24,10 +24,10 @@
    <association href='urn:uuid:e8e57ecb-d313-4419-8682-1fe3f981ff82'/>
    <type href='urn:uuid:8368c305-c53e-4149-81e4-b3c055b74754'/>
    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:8922d541-27aa-419a-8d7e-212e58e29d2c'
-     value='1'
+     value='0'
      visibility='public'/>
    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:4e030104-656f-4855-9b2a-b4c8c5ca6401'
-     value='1'
+     value='*'
      visibility='public'/>
   </ownedEnd>
   <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:7ca9a660-6be1-4727-be40-867d3cf1c3ed'
