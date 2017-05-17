@@ -2,7 +2,7 @@
 <xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
  <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.2.0'/>
  <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:f53cb417-4066-4469-a28e-ed92af2eb560'
-   isAbstract='false'
+   isAbstract='true'
    isActive='false'
    isFinalSpecialization='false'
    isLeaf='false'
@@ -220,7 +220,7 @@
     <type href='urn:uuid:38a2f092-72e8-41a5-9dff-d6bbce8cf5f2'/>
    </ownedParameter>
   </ownedOperation>
-  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:adfe3696-b7fa-44d1-a794-b67eba2b73a9'
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:5aa5263b-d3ef-4ed8-9efc-0cc050240703'
     isAbstract='false'
     isLeaf='false'
     isQuery='false'
@@ -228,7 +228,7 @@
     name='Rapport'
     concurrency='sequential'
     visibility='public'>
-   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:0831e49d-e573-4303-a935-27d446ec4c0f'
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:b257a51a-5efb-4d2e-886e-b892caf202c1'
      isException='false'
      isOrdered='false'
      isStream='false'

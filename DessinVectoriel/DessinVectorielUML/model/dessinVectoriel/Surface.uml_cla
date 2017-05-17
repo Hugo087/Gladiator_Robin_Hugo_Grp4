@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.2.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:a8eef85d-d118-4c6d-a3c8-46cb642153a1'
+   isAbstract='true'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Surface'
+   visibility='public'>
+  <generalization xmi:type='uml:Generalization' xmi:uuid='urn:uuid:a9afd4a5-6a86-4df8-b68e-20c8aaa4d664'
+    isSubstitutable='true'>
+   <general href='urn:uuid:04074ac4-bb7c-4849-b319-41e7c6eb9c90'/>
+  </generalization>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:ef0af922-4a2d-43a9-a57c-ba8e41617a2f'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='couleurFond'
+    aggregation='none'
+    visibility='private'>
+   <type href='urn:uuid:a208b05a-ab62-45c0-bd89-0d86f425d712'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:565d966f-2e22-45e6-9f90-03c41432438a'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:58ec8b0a-e699-4f24-8d50-4585361fdae3'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:405be47c-c584-41b1-96eb-65f34eaff8a4'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getCouleurFond'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:f5f136ea-b34b-4ca6-ac84-12ccc32c3200'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:a208b05a-ab62-45c0-bd89-0d86f425d712'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:68c16e91-c828-4573-b628-fe3817a5ad4d'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:6599c091-545e-4e6f-a51c-159d6bb5b24e'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:3266dfcb-627c-4027-b402-fab9b8b3cd06'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='setCouleurFond'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:878b4483-8964-42c4-b900-45feaa2b1c7c'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='c'
+     direction='in'>
+    <type href='urn:uuid:a208b05a-ab62-45c0-bd89-0d86f425d712'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:f8eb484e-f3aa-47ca-80f4-439fdb6c838d'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:4916f26a-2aeb-4f68-aa78-df362ccfd184'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:1f218cba-9eba-459e-83ba-68e669dcbb8d'
+    isAbstract='true'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='remplir'
+    concurrency='sequential'
+    visibility='protected'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:4c58dc8c-ba47-4fd8-99b3-7e0095220d49'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='graphics'
+     direction='in'>
+    <type href='urn:uuid:01be1b5a-e387-43dd-ba6a-7c86a12b1ca1'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1a3e5165-9bf0-45f2-ad34-34f9cc9ba5e0'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:d77839ff-f8bb-4a18-8417-9110a277d041'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>
