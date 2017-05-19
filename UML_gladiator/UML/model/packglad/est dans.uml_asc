@@ -20,7 +20,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endethnie'
+    name='Ethnie'
     aggregation='none'>
    <association href='urn:uuid:7612b20d-8df6-4ceb-a631-ab751ca8fda9'/>
    <type href='urn:uuid:4d93d5ca-e6ea-48cc-9c32-a1ebc3f6b32b'/>
@@ -40,7 +40,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endgladiateur'
+    name='ListeGlad'
     aggregation='none'>
    <association href='urn:uuid:7612b20d-8df6-4ceb-a631-ab751ca8fda9'/>
    <type href='urn:uuid:f53cb417-4066-4469-a28e-ed92af2eb560'/>

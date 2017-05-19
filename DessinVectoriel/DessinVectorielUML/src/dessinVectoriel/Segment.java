@@ -16,7 +16,7 @@ public class Segment extends Figure {
 
     public Segment(Pixel origine, int longueur) {
         this.origine = origine;
-        this.extremite.setX(origine.getX() + longueur);
+        extremite = new Pixel(origine.getX() + longueur, 0 );
     }
 
     public Pixel getOrigine() {

@@ -20,7 +20,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endmirmillon'
+    name='Mirmillon'
     aggregation='none'>
    <association href='urn:uuid:0ccbce14-07e5-4e69-b970-f9f27321e397'/>
    <type href='urn:uuid:8368c305-c53e-4149-81e4-b3c055b74754'/>
@@ -40,7 +40,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endgladiateur'
+    name='ListeAgresseur'
     aggregation='none'>
    <association href='urn:uuid:0ccbce14-07e5-4e69-b970-f9f27321e397'/>
    <type href='urn:uuid:f53cb417-4066-4469-a28e-ed92af2eb560'/>

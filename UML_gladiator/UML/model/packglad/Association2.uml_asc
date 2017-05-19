@@ -20,7 +20,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endGethnie'
+    name='InterfaceEthnie'
     aggregation='none'>
    <association href='urn:uuid:f19f9841-acbb-4c2e-8ab8-6451bd8f6da5'/>
    <type href='urn:uuid:abdf57ad-8a1f-415d-8515-0e38023d77b9'/>
@@ -40,7 +40,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endethnie'
+    name='ListeEthnie'
     aggregation='composite'>
    <association href='urn:uuid:f19f9841-acbb-4c2e-8ab8-6451bd8f6da5'/>
    <type href='urn:uuid:4d93d5ca-e6ea-48cc-9c32-a1ebc3f6b32b'/>

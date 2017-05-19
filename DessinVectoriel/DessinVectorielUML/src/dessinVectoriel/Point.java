@@ -13,8 +13,7 @@ public class Point extends Figure {
     }
 
     public Point(int x, int y) {
-        pixel.setX(x);
-        pixel.setY(y);
+        pixel = new Pixel(x, y);
     }
 
     public Pixel getPixel() {

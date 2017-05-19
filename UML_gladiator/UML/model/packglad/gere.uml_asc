@@ -20,7 +20,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endGarme'
+    name='InterfaceArme'
     aggregation='none'>
    <association href='urn:uuid:d59a7d03-5035-422e-8ec2-56ebd10a4539'/>
    <type href='urn:uuid:d1095360-4509-4ea4-a20d-9d2acf333d7f'/>
@@ -40,7 +40,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endarme'
+    name='ListeArme'
     aggregation='composite'>
    <association href='urn:uuid:d59a7d03-5035-422e-8ec2-56ebd10a4539'/>
    <type href='urn:uuid:38a2f092-72e8-41a5-9dff-d6bbce8cf5f2'/>

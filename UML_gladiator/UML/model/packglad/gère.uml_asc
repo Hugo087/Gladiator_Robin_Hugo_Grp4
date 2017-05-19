@@ -20,7 +20,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endGGladiateur'
+    name='InterfaceGlad'
     aggregation='none'>
    <association href='urn:uuid:66e56691-24d0-4e64-8fc1-6eb6873d0162'/>
    <type href='urn:uuid:ad04a9ed-bbad-47f9-a0d1-cc939176f3cd'/>
@@ -40,7 +40,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='endgladiateur'
+    name='ListeGlad'
     aggregation='composite'>
    <association href='urn:uuid:66e56691-24d0-4e64-8fc1-6eb6873d0162'/>
    <type href='urn:uuid:f53cb417-4066-4469-a28e-ed92af2eb560'/>

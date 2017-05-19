@@ -15,7 +15,7 @@
     isLeaf='false'
     isOrdered='false'
     isReadOnly='false'
-    isStatic='false'
+    isStatic='true'
     isUnique='true'
     name='prochaineide'
     aggregation='none'
@@ -32,7 +32,7 @@
     isAbstract='false'
     isLeaf='false'
     isQuery='false'
-    isStatic='false'
+    isStatic='true'
     name='ajouterEthnie'
     concurrency='sequential'
     visibility='public'>
@@ -50,7 +50,7 @@
     isAbstract='false'
     isLeaf='false'
     isQuery='false'
-    isStatic='false'
+    isStatic='true'
     name='getEthnie'
     concurrency='sequential'
     visibility='public'>
@@ -76,8 +76,8 @@
     isAbstract='false'
     isLeaf='false'
     isQuery='false'
-    isStatic='false'
-    name='listerEthnier'
+    isStatic='true'
+    name='listerEthnie'
     concurrency='sequential'
     visibility='public'>
    <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:86349067-21c0-4f91-bb59-238e9ec00b3a'
@@ -99,8 +99,8 @@
     isAbstract='false'
     isLeaf='false'
     isQuery='false'
-    isStatic='false'
-    name='supprimerEthnier'
+    isStatic='true'
+    name='supprimerEthnie'
     concurrency='sequential'
     visibility='public'>
    <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:1695affa-0cc9-4098-aba4-d5e4ed685148'
@@ -117,7 +117,7 @@
     isAbstract='false'
     isLeaf='false'
     isQuery='false'
-    isStatic='false'
+    isStatic='true'
     name='nbEthnie'
     concurrency='sequential'
     visibility='public'>
@@ -127,6 +127,92 @@
      isStream='false'
      isUnique='true'
      direction='return'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:0a617d1a-415f-4e01-8e8b-e5404dee62c6'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='true'
+    name='listerEthnie'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:ed9d009a-81a5-4236-ba30-18411fda6eff'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='ide'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:698363b9-d564-4315-8155-733e5a4e1ba9'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:4d93d5ca-e6ea-48cc-9c32-a1ebc3f6b32b'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2f30b85d-39d6-4ad8-b0da-a3a53d11248a'
+      value='0'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b831dde5-8aaa-4053-9560-82216f68d443'
+      value='*'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:a9d81eba-69e3-431a-8e6e-4643509ab2d7'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='true'
+    name='ajouterGladiateur'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:fb011b08-271a-470d-ab8d-7de607bbbae8'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='idg'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:a69fdb04-27c2-499f-b47a-7bc375f9017e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='ide'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:b9dd7780-c659-414c-8472-681c65a79796'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='ajouterPoints'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:e292cfcf-1eaf-4bc2-a502-df038af9e1bb'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='ide'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:b7f289b9-6b16-471d-a427-a6205891feb8'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='points'
+     direction='in'>
     <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
    </ownedParameter>
   </ownedOperation>

@@ -4,6 +4,7 @@ import java.awt.Graphics2D;
 
 import java.time.LocalDateTime;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class Dessin {
@@ -31,6 +32,7 @@ public class Dessin {
         nomDessin = dessin;
         nomAuteur = auteur;
         dateCreation = date;
+        figures = new <Figure>ArrayList() ;
     }
 
     public String getNomDessin() {
@@ -71,6 +73,7 @@ public class Dessin {
 
     public void afficher(Graphics2D graphics) {
         afficher(graphics);
+        
     }
 
     public void ajouter(Figure f) {
