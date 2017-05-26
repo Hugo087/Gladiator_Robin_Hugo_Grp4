@@ -32,7 +32,7 @@ public class Point extends Figure {
     }
 
     public void afficher(Graphics2D graphics) {
-        afficher(graphics);
+        
         graphics.setColor(getCouleurTrait());
     }
 }

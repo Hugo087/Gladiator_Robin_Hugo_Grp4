@@ -189,15 +189,15 @@
     <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
    </ownedParameter>
   </ownedOperation>
-  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:b9dd7780-c659-414c-8472-681c65a79796'
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:6a5a9a42-2990-487d-ab55-a402436c2796'
     isAbstract='false'
     isLeaf='false'
     isQuery='false'
-    isStatic='false'
-    name='ajouterPoints'
+    isStatic='true'
+    name='decrireEthnie'
     concurrency='sequential'
     visibility='public'>
-   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:e292cfcf-1eaf-4bc2-a502-df038af9e1bb'
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:5c698346-2731-4f08-85b4-39e7cde5e374'
      isException='false'
      isOrdered='false'
      isStream='false'
@@ -206,13 +206,38 @@
      direction='in'>
     <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
    </ownedParameter>
-   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:b7f289b9-6b16-471d-a427-a6205891feb8'
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:441b1510-fb5e-46a4-9c4e-90ad05fcee1a'
      isException='false'
      isOrdered='false'
      isStream='false'
      isUnique='true'
-     name='points'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:0101f90d-d7f0-4ac5-9e81-a69f96b9ba88'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='true'
+    name='score'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:509607de-6701-469a-8efc-9cc3e3dd77ff'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='ide'
      direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:7389906e-1433-4554-abe9-1cae71f33887'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
     <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
    </ownedParameter>
   </ownedOperation>

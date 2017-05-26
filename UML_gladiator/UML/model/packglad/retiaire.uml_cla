@@ -6,7 +6,7 @@
    isActive='false'
    isFinalSpecialization='false'
    isLeaf='false'
-   name='rétiaire'
+   name='retiaire'
    visibility='public'>
   <generalization xmi:type='uml:Generalization' xmi:uuid='urn:uuid:899f293c-fe10-40ce-942c-95f912a63932'
     isSubstitutable='true'>

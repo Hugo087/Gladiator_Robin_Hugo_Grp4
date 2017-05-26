@@ -1,5 +1,6 @@
 package dessinVectoriel;
 
+import java.awt.BasicStroke;
 import java.awt.Graphics2D;
 
 import java.time.LocalDateTime;
@@ -26,13 +27,13 @@ public class Dessin {
     /**
      * @associates <{dessinVectoriel.Figure}>
      */
-    Collection<Figure> figures;
+    ArrayList<Figure> figures;
 
     public Dessin(String dessin, String auteur, LocalDateTime date) {
         nomDessin = dessin;
         nomAuteur = auteur;
         dateCreation = date;
-        figures = new <Figure>ArrayList() ;
+        figures = new ArrayList<Figure>() ;
     }
 
     public String getNomDessin() {
@@ -63,7 +64,7 @@ public class Dessin {
         return figures;
     }
 
-    public void setLesFigures(Collection<Figure> figures) {
+    public void setLesFigures(ArrayList<Figure> figures) {
         this.figures = figures;
     }
 
@@ -72,7 +73,7 @@ public class Dessin {
     }
 
     public void afficher(Graphics2D graphics) {
-        afficher(graphics);
+        
         
     }
 

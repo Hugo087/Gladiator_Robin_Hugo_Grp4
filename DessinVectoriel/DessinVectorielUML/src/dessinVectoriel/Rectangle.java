@@ -71,7 +71,7 @@ public class Rectangle extends Surface {
     }
 
     public void afficher(Graphics2D graphics) {
-        afficher(graphics);
+        graphics.drawRect();
         graphics.setColor(getCouleurTrait());
     }
 }

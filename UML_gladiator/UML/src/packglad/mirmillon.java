@@ -1,5 +1,6 @@
-package uml;
+package packglad;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class mirmillon extends gladiateur {
@@ -11,14 +12,16 @@ public class mirmillon extends gladiateur {
     /**
      * @attribute
      */
-    private static String c_type = mirmillon;
+    private static String c_type = "mirmillon";
 
     /**
-     * @associates <{uml.gladiateur}>
+     * @associates <{packglad.gladiateur}>
      */
-    Collection ListeAgresseur;
+    ArrayList ListeAgresseur;
 
     public mirmillon(String nom_gladiateur, Integer poids, Integer idg, Integer vie) {
+       super(idg, nom_gladiateur, c_type, poids/2, vie);
+       this.poids = poids;
     }
 
     public String Rapport() {

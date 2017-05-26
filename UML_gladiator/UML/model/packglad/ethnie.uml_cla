@@ -57,7 +57,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='pointEthnier'
+    name='point_ethnie'
     aggregation='none'
     visibility='private'>
    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
@@ -107,6 +107,15 @@
      name='nom_ethnie'
      direction='in'>
     <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:ba4fbf37-2709-455b-b6c6-38f3d2c9fc55'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='ide'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer'/>
    </ownedParameter>
   </ownedOperation>
   <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:82734c24-6d7e-4d1f-9670-f5fb7eed696a'
